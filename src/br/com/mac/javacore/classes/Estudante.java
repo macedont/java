@@ -1,4 +1,4 @@
-package br.com.mac.javacore.introducaoclasses;
+package br.com.mac.javacore.classes;
 
 public class Estudante {
     public String nome;

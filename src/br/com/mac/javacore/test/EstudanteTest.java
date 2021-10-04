@@ -1,6 +1,6 @@
-package br.com.mac.javacore.introducaoclassestest;
+package br.com.mac.javacore.test;
 
-import br.com.mac.javacore.introducaoclasses.Estudante;
+import br.com.mac.javacore.classes.Estudante;
 
 public class EstudanteTest {
     public static void main(String[] args) {
