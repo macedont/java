@@ -10,5 +10,6 @@ public class CalculadoraTest {
         calc.subtrai();
         double rs = calc.divisao(5.0, 2.0);
         System.out.println(rs);
+        calc.multiplicacao(1, 1);
     }
 }

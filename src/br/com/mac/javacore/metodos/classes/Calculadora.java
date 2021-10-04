@@ -14,4 +14,12 @@ public class Calculadora {
     public double divisao(double num, double num1){
         return num / num1;
     }
+
+    public void multiplicacao(int num, int num1){
+        if(num != 0 && num1 != 0){
+            System.out.println(num * num1);
+            return;
+        }
+        System.out.println("Informe um número maior que zero.");
+    }
 }

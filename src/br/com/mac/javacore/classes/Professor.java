@@ -7,4 +7,11 @@ public class Professor {
     public String rg;
     public String cpf;
 
+    public void getProfessor(Professor aux){
+        System.out.println(aux.nome);
+        System.out.println(aux.matricula);
+        System.out.println(aux.rg);
+        System.out.println(aux.cpf);
+    }
+
 }

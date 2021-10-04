@@ -11,6 +11,6 @@ public class ProfessorTest {
         prof.rg = "3.285.441";
         prof.cpf = "000.624.147.21";
 
-        System.out.println(prof.nome);
+        prof.getProfessor(prof);
     }
 }
