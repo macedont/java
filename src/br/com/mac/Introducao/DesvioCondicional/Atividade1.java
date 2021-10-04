@@ -1,4 +1,4 @@
-package aula4;
+package br.com.mac.Introducao.DesvioCondicional;
 
 public class Atividade1 {
     public static void main(String[] args) {

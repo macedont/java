@@ -1,4 +1,4 @@
-package aula5;
+package br.com.mac.Introducao.Arrays;
 
 public class Arrays2 {
     public static void main(String[] args) {

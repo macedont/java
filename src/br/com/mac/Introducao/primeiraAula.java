@@ -1,4 +1,4 @@
-package aula1;
+package br.com.mac.Introducao;
 
 public class primeiraAula {
     

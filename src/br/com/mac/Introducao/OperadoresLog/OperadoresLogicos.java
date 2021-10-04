@@ -1,4 +1,4 @@
-package aula2;
+package br.com.mac.Introducao.OperadoresLog;
 
 public class OperadoresLogicos {
     public static void main(String[] args){

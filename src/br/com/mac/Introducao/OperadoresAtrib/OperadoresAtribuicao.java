@@ -1,4 +1,4 @@
-package aula3;
+package br.com.mac.Introducao.OperadoresAtrib;
 
 public class OperadoresAtribuicao {
     public static void main(String[] args) {
