@@ -6,7 +6,7 @@ public class Funcionario {
     private double salario;
     private String rg;
 
-    public Funcionario(String nome, ){
+    public Funcionario(String nome){
         this.nome = nome;
     }
 
