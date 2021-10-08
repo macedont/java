@@ -1,6 +1,6 @@
-package br.com.mac.javacore.test;
+package br.com.mac.javacore.introducao.test;
 
-import br.com.mac.javacore.classes.Professor;
+import br.com.mac.javacore.introducao.classes.Professor;
 
 public class ProfessorTest {
 
