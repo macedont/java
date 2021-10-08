@@ -10,6 +10,8 @@ public class Cliente {
         }
     }
 
+    public Cliente(){}
+
     public int[] getParcelas() {
         return parcelas;
     }
