@@ -6,9 +6,10 @@ public class ClientTest {
 
     public static void main(String[] args) {
         Cliente cli = new Cliente();
+        Cliente cli1 = new Cliente();
+        Cliente cli2 = new Cliente();
+
         System.out.println("Exibindo parcelas possíveis.");
-        for(int x: cli.getParcelas()){
-            System.out.print(x + " ");
-        }
+        System.out.println("Tamanho das Parcelas: " + Cliente.getParcelas().length);
     }
 }
