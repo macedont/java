@@ -2,11 +2,11 @@ package br.com.mac.javacore.metodos.classes;
 
 public class Calculadora {
 
-    public void soma(int num1, int num2){
+    public static void soma(int num1, int num2){
         System.out.println(num1 + num2);
     }
 
-    public void subtrai(){
+    public static void subtrai(){
         System.out.println("resultado: " + (5 - 3));
     }
 
@@ -15,7 +15,7 @@ public class Calculadora {
         return num / num1;
     }
 
-    public void multiplicacao(int num, int num1){
+    public static void multiplicacao(int num, int num1){
         if(num != 0 && num1 != 0){
             System.out.println(num * num1);
             return;
@@ -23,7 +23,7 @@ public class Calculadora {
         System.out.println("Informe um número maior que zero.");
     }
 
-    public void somaArray(int[] numeros){
+    public static void somaArray(int[] numeros){
         int soma = 0;
         for(int num: numeros){
             soma += num;
@@ -31,7 +31,7 @@ public class Calculadora {
         System.out.println(soma);
     }
 
-    public void somaVarArgs(int ...numeros){
+    public static void somaVarArgs(int ...numeros){
         int soma = 0;
         for(int num: numeros){
             soma += num;
