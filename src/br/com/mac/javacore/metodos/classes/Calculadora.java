@@ -11,7 +11,7 @@ public class Calculadora {
     }
 
     //indica o tipo de retorno a segunda palavra reservada
-    public double divisao(double num, double num1){
+    public static double divisao(double num, double num1){
         return num / num1;
     }
 
