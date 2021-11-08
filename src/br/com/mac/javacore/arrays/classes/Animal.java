@@ -7,7 +7,10 @@ public class Animal {
         this.nome = nome;
     }
 
-    public void getNome(){
-        System.out.println(this.nome);
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "nome='" + nome + '\'' +
+                '}';
     }
 }
